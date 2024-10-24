@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="css/register.css">
+    <style>
+        body{
+            background-image: url("assets/back grounnd.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+
+   <legend>CREATE AN ACCOUNT</legend>
+    <br>
+    <label for="fname">first name:</label>
+    <input type="text" id="fname" placeholder="enter firstname" required="required"> <br><br>
+    <label for="sname">surname :</label>
+    <input type="text" id="sname" placeholder="enter surname" required="required"> <br><br>
+    <label for="email">Email Address :</label>
+    <input type="email" id="email" placeholder="abc@gmail.com" required="required"> <br><br>
+  <label for="pswd">password :</label>
+    <input type="password" id="pswd" placeholder="type your password" required="required"> <br><br>
+
+    <label for="phone">Phone number:</label>
+    <input type="Tel" id="phone" placeholder="eg 071231352" required="required"> <br><br>
+      <label for="address">Home address:</label>
+    <input type="number" id="address" placeholder="90300" required="required"> <br><br>
+
+      <label for="file">Choose file:</label>
+    <input type="file" id="file" required="required"> <br><br>
+    <label for="nationality">Select nationality</label>
+    <select name="" id="nationality">
+        <option value="" disabled="disabled">...Choose nationality..</option>
+        <option value="dutch">dutch</option>
+        <option value="german">German</option>
+        <option value="italian">Italian</option>
+    </select> <br><br>
+    <label>Choose gender</label><br>
+    <input type="radio" id="male">
+    <label for="male">male</label><br>
+
+      <input type="radio" id="female">
+    <label for="female">female</label><br>
+
+      <input type="radio" id="other">
+    <label for="other">other</label><br>
+
+    <label>Hobby :</label>
+    <input type="checkbox" id="cricket">
+    <label for="cricket">Cricket</label><br>
+
+     <input type="checkbox" id="football">
+    <label for="football">Football</label><br>
+
+     <input type="checkbox" id="hockey">
+    <label for="hockey">hockey</label><br>
+
+    <label for="message">Describe yourself</label><br>
+    <textarea name="message" id="message" cols="40" rows="5" placeholder="type here..."></textarea><br>
+
+<button type="submit ">submit</button>
+</form>
+
+
+
+</body>
+</html>
